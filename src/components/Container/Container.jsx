@@ -1,5 +1,5 @@
-import Style from "../css/container.module.css"
-import profile from "../image/profile.png"
+import Style from "./container.module.css"
+import profile from "../../image/profile.png"
 const Container = () => {
   return (
     <>

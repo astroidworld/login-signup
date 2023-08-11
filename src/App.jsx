@@ -1,13 +1,12 @@
-import "./css/style.module.css";
-import Navbar from "./components/Navbar";
-import Container from "./components/Container";
+import "./style.module.css";
+import Navbar from "./components/Navbar/Navbar";
+import Container from "./components/Container/Container";
 
 const App = () => {
   return (
     <>
       <main>
         <Navbar/>
-        
         <Container/>
       </main>
     </>
