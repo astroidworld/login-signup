@@ -1,0 +1,56 @@
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    backdrop-filter: blur(30px);
+    background-color: #ffffff08;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 20px;
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: all 0.1s linear;
+}
+.button:hover{
+    background-color: #fff; 
+    color: #16001E;
+}
+.navButtons{
+    position: relative;
+}
+
+.user{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    transition: all 0.1s ease;
+    cursor: pointer;
+    
+}
+.user:hover{
+    border: 2px solid #fff;
+}
+.user img{
+    /* height: 100%; */
+    width: 100%;
+}

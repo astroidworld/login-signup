@@ -1,0 +1,28 @@
+/* ====================== Fonts import ====================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ====================== Global ====================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ========= Main section ========= */
+
+main{
+    width: 100%;
+    /* background-color: red;   */
+    position: relative;   
+    background-color: #16001E;
+    
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
